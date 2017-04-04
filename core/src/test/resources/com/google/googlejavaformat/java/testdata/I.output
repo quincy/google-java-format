@@ -2,10 +2,7 @@ package com.google.googlejavaformat.java.test;
 
 import java.util.List;
 
-/**
- * Tests for IfStatements, ImportDeclarations, InfixExpressions, Initializers,
- * InstanceofExpressions, and IntersectionTypes.
- */
+/** Tests for IfStatements, ImportDeclarations, InfixExpressions, Initializers, InstanceofExpressions, and IntersectionTypes. */
 class I {
   interface I0 {}
 
@@ -47,10 +44,7 @@ class I {
 
   interface I19 {}
 
-  class II<
-      T extends
-          I0 & I1 & I2 & I3 & I4 & I5 & I6 & I7 & I8 & I9 & I10 & I11 & I12 & I13 & I14 & I15 & I16
-              & I17 & I18 & I19> {}
+  class II<T extends I0 & I1 & I2 & I3 & I4 & I5 & I6 & I7 & I8 & I9 & I10 & I11 & I12 & I13 & I14 & I15 & I16 & I17 & I18 & I19> {}
 
   static class CC {
     static {
@@ -60,15 +54,12 @@ class I {
 
   int x =
       0 >>> 0 + 0 / 0 * 0 - 0 & 0 << 0 * 0 / 0 >> 0 - 0 ^ 0 * 0 / 0 >>> 0 << 0 * 0 - 0 / 0
-          | 0 * 0 >> 0 + 0 / 0 * 0 - 0 << 0
-              & 0 * 0 / 0 >>> 0 - 0 * 0 >> 0 / 0 << 0 * 0 + 0 - 0 / 0 * 0
+          | 0 * 0 >> 0 + 0 / 0 * 0 - 0 << 0 & 0 * 0 / 0 >>> 0 - 0 * 0 >> 0 / 0 << 0 * 0 + 0 - 0 / 0 * 0
           | 0 - 0 * 0 >>> 0 << 0 / 0 * 0 >> 0 - 0 ^ 0 * 0 / 0 & 0 << 0 + 0;
 
   void f() {
-    if (0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0
-            + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0
-        == 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0
-            + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0) {
+    if (0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0
+        == 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0) {
     } else if (null instanceof List) {
     } else {
     }

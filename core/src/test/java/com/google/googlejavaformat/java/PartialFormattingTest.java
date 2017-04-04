@@ -19,6 +19,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.junit.Assert.assertEquals;
 
 import com.google.common.base.Joiner;
+import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ObjectArrays;
 import com.google.common.collect.Range;
@@ -607,17 +608,10 @@ public final class PartialFormattingTest {
             "    // No maxResults",
             "    assertThat(",
             "            achievementFirstPartyHelper",
-            "                .listDefinitionsByApplication(",
-            "                    STUB_GAIA_ID,",
-            "                    STUB_APPLICATION_ID,",
-            "                    Optional.<Integer>absent(),",
-            "                    Optional.<String>absent())",
+            "                .listDefinitionsByApplication(STUB_GAIA_ID, STUB_APPLICATION_ID, Optional.<Integer>absent(), Optional.<String>absent())",
             "                .getAchievements())",
             "        .containsExactly(",
-            "            createExpectedDefinition(1),",
-            "            createIncrementalExpectedDefinition(2),",
-            "            createExpectedDefinition(3),",
-            "            createIncrementalExpectedDefinition(4))",
+            "            createExpectedDefinition(1), createIncrementalExpectedDefinition(2), createExpectedDefinition(3), createIncrementalExpectedDefinition(4))",
             "        .inOrder();",
             "  }",
             "}",

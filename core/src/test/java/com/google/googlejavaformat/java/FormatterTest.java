@@ -45,7 +45,7 @@ public final class FormatterTest {
     // don't forget to misspell "long", or you will be mystified for a while
     String input =
         "class A{void b(){while(true){weCanBeCertainThatThisWillEndUpGettingWrapped("
-            + "because, it, is, just, so, very, very, very, very, looong);}}}";
+          + "because, it, is, just, so, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, looong);}}}";
     String expectedOutput =
         Joiner.on("\n")
             .join(
@@ -53,7 +53,8 @@ public final class FormatterTest {
                 "    void b() {",
                 "        while (true) {",
                 "            weCanBeCertainThatThisWillEndUpGettingWrapped(",
-                "                    because, it, is, just, so, very, very, very, very, looong);",
+                "                    because, it, is, just, so, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very,",
+                "                    very, very, looong);",
                 "        }",
                 "    }",
                 "}",

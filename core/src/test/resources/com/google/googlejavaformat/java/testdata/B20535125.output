@@ -7,8 +7,7 @@ class Test {
       checkCollectionNodesAgainstWhitelist(nodes, whitelist);
       return nodes;
 
-    } else if (!metadata.ignoreOutputTransformations()
-        && Producers.isListenableFutureListKey(outputKey)) {
+    } else if (!metadata.ignoreOutputTransformations() && Producers.isListenableFutureListKey(outputKey)) {
       ImmutableList<ProducerNode<?>> nodes = createListNodes((ProducerNode) node);
       return nodes;
     }

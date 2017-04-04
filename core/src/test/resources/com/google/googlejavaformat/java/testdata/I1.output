@@ -2,16 +2,14 @@ class Test {
   final CreationMechanism creationMechanism;
   final @Nullable String creationUserAgent;
   final ClientId clientId;
-  final @Nullable String
-      creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
+  final @Nullable String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
   final Token externalId;
 
   {
     final CreationMechanism creationMechanism;
     final @Nullable String creationUserAgent;
     final ClientId clientId;
-    final @Nullable String
-        creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
+    final @Nullable String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
     final Token externalId;
   }
 }
@@ -20,18 +18,14 @@ class Test {
   final CreationMechanism creationMechanism;
   @Nullable final String creationUserAgent;
   final ClientId clientId;
-
-  @Nullable
-  final String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
-
+  @Nullable final String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
   final Token externalId;
 
   {
     final CreationMechanism creationMechanism;
     @Nullable final String creationUserAgent;
     final ClientId clientId;
-    @Nullable
-    final String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
+    @Nullable final String creationUserAgentXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
     final Token externalId;
   }
 }

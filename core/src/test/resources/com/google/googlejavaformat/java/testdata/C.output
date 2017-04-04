@@ -1,9 +1,8 @@
 package com.google.googlejavaformat.java.test;
 
 /**
- * Tests for CastExpressions, CatchClauses, CharacterLiterals, ClassInstanceCreations,
- * CommentHelper, ConditionalExpressions, ConstructorInvocations, ContinueStatements, and
- * CreationReferences.
+ * Tests for CastExpressions, CatchClauses, CharacterLiterals, ClassInstanceCreations, CommentHelper, ConditionalExpressions, ConstructorInvocations,
+ * ContinueStatements, and CreationReferences.
  */
 class C<T> {
   // TODO(jdd): Test higher-language-level constructs.
@@ -35,12 +34,8 @@ class C<T> {
     } catch (RuntimeException e) {
       Object x =
           (Pair<
-                  Pair<
-                      Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>,
-                      Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>>,
-                  Pair<
-                      Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>,
-                      Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>>>)
+                  Pair<Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>, Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>>,
+                  Pair<Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>, Pair<Pair<Integer, Integer>, Pair<Integer, Integer>>>>)
               null;
       C<Integer> c =
           new C<Integer>(
@@ -61,12 +56,7 @@ class C<T> {
               28, 29,
               30, 31);
       int i = 0;
-      int j =
-          i == 0
-              ? 0
-              : i == 1
-                  ? 1
-                  : i == 2 ? 2 : i == 3 ? 3 : i == 4 ? 4 : i == 5 ? 5 : i == 6 ? 6 : i == 7 ? 7 : i;
+      int j = i == 0 ? 0 : i == 1 ? 1 : i == 2 ? 2 : i == 3 ? 3 : i == 4 ? 4 : i == 5 ? 5 : i == 6 ? 6 : i == 7 ? 7 : i;
       LABEL:
       while (true != false) {
         if (false == true) continue;
