@@ -25,14 +25,13 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.google.googlejavaformat</groupId>
-  <artifactId>google-java-format-parent</artifactId>
+  <groupId>com.clearwateranalytics</groupId>
+  <artifactId>java-code-style</artifactId>
   <packaging>pom</packaging>
   <version>1.4-SNAPSHOT</version>
 
   <modules>
     <module>core</module>
-    <module>eclipse_plugin</module>
     <!-- google-java-format#24
     <module>idea_plugin</module>
     -->
@@ -75,13 +74,6 @@
       <timezone>-8</timezone>
     </developer>
   </developers>
-
-  <scm>
-    <url>http://github.com/google/google-java-format/</url>
-    <connection>scm:git:git://github.com/google/google-java-format.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/google/google-java-format.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
 
   <issueManagement>
     <system>GitHub Issues</system>

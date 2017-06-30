@@ -20,17 +20,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.google.googlejavaformat</groupId>
-    <artifactId>google-java-format-parent</artifactId>
+    <groupId>com.clearwateranalytics</groupId>
+    <artifactId>java-code-style</artifactId>
     <version>1.4-SNAPSHOT</version>
   </parent>
 
-  <artifactId>google-java-format</artifactId>
-
-  <name>Google Java Format</name>
+  <artifactId>java-code-style-core</artifactId>
 
   <description>
-    A Java source code formatter that follows Google Java Style.
+    A Java source code formatter that follows Clearwater Java Style.
   </description>
 
   <dependencies>
